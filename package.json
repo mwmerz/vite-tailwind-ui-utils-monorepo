@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt-monorepo-tutorial",
+  "version": "0.0.1",
+  "description": "Monorepo Tutorial",
+  "author": "Michael Merz",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "turbo": "^2.5.1"
+  }
+}
