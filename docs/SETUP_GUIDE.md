@@ -46,7 +46,6 @@ pnpm add -g turbo
 ```bash
 mkdir my-monorepo && cd my-monorepo
 pnpm init
-pnpm add -Dw turbo
 ```
 
 Add this `pnpm-workspace.yaml`:
@@ -55,6 +54,11 @@ Add this `pnpm-workspace.yaml`:
 packages:
   - "apps/*"
   - "packages/*"
+```
+
+Install turbo:
+```bash
+pnpm add -Dw turbo
 ```
 
 Create `turbo.json`:
